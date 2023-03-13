@@ -1,10 +1,10 @@
 
-<div class="btn-group slide-in-left" style="width:100%">
-    <button mat-raised-button class="bckBtnResp" color="warn" style="width:20%; "(click)="onBack()"><mat-icon>keyboard_backspace</mat-icon>Go Back</button>
-    <button mat-flat-button class="BtnResp" style="width:20%" (click)="Multitool()">Angular Multitool</button>
-    <button mat-flat-button class="BtnResp"style="width:20%" (click)="IncomeCalc()">Income Calculator</button>
-    <button mat-flat-button class="BtnResp"style="width:20%" (click)="ExToFirebase()">Firebase Upload</button>
-    <button mat-flat-button class="BtnResp"style="width:20%" (click)="PocsajSEO()">Pocsaj.hu SEO</button>
+<button mat-mini-fab class="bckBtn" color="warn" (click)="onBack()"><mat-icon>keyboard_backspace</mat-icon></button>
+<div class="btn-group slide-in-left">
+    <button mat-button class="BtnResp"  (click)="Multitool()">Angular Multitool</button>
+    <button mat-button class="BtnResp" (click)="IncomeCalc()">Income Calculator</button>
+    <button mat-button class="BtnResp" (click)="ExToFirebase()">Firebase Upload</button>
+    <button mat-button class="BtnResp" (click)="PocsajSEO()">Pocsaj.hu SEO</button>
   </div>
 <mat-card  class="slide-in-left SideNav mat-elevation-z24 ">
     <mat-card-header>

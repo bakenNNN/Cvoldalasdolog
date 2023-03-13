@@ -20,7 +20,6 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     AppComponent,
     AboutComponent,
     ProjectsComponent,
-
   ],
   imports: [
     BrowserModule,
