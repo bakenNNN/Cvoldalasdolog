@@ -1,0 +1,28 @@
+
+<div class="btn-group slide-in-left" style="width:100%">
+    <button mat-raised-button class="bckBtnResp" color="warn" style="width:20%; "(click)="onBack()"><mat-icon>keyboard_backspace</mat-icon>Go Back</button>
+    <button mat-flat-button class="BtnResp" style="width:20%" (click)="Multitool()">Angular Multitool</button>
+    <button mat-flat-button class="BtnResp"style="width:20%" (click)="IncomeCalc()">Income Calculator</button>
+    <button mat-flat-button class="BtnResp"style="width:20%" (click)="ExToFirebase()">Firebase Upload</button>
+    <button mat-flat-button class="BtnResp"style="width:20%" (click)="PocsajSEO()">Pocsaj.hu SEO</button>
+  </div>
+<mat-card  class="slide-in-left SideNav mat-elevation-z24 ">
+    <mat-card-header>
+        <a routerLink="/about"><button color="warn" mat-flat-button class="NavButtons3"><mat-icon>keyboard_backspace</mat-icon>Back</button></a>
+        
+    </mat-card-header>
+    <mat-card-content class="NavButtonsContainer">
+        <hr>
+        <button mat-raised-button class="NavButtons" (click)="Multitool()">Angular Multitool</button>
+        <p></p>
+        <button mat-raised-button class="NavButtons"(click)="IncomeCalc()">Income Calculator</button>
+        <p></p>
+        <button mat-raised-button class="NavButtons2" (click)="ExToFirebase()">Excel to Firebase upload</button>
+        <p></p>
+        <button mat-raised-button class="NavButtons4" (click)="PocsajSEO()">Pocsaj.hu SEO</button>
+    </mat-card-content>
+</mat-card>
+<div class="TextContent" id="oldtext" [ngClass]="{'slide-in-text' : condition, 'roll-in-blurred-bottom' : condition2,'tilt-in-fwd-tr' : condition3,'bounce-in-bottom' : condition4}">{{text}}</div>
+<div *ngFor="let kep of kepek">  
+<img class="CodeImage mat-elevation-z20" [ngClass]="{'slide-in-text' : condition, 'roll-in-blurred-bottom' : condition2,'tilt-in-fwd-tr' : condition3,'bounce-in-bottom' : condition4}" mat-card-image src="{{kep}}">
+

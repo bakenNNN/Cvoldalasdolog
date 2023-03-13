@@ -1,0 +1,41 @@
+<router-outlet></router-outlet>
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body class="pageBody">
+<div mat-card-image class= "fade-in image">
+   
+</div>
+
+
+
+
+
+
+<div mat-card-text class="mat-elevation-z24 WelcometextCard fade-in">
+    <span class="textPart1" id="app"></span>
+</div>
+
+<mat-card class="fade-in2 mat-elevation-z0 ProjectsCard">
+    
+    <img class="matIMG" mat-card-image src="assets/images/code.jpg" alt="Photo of code">
+    <mat-card-content>
+      <h1>My Projects</h1>
+      <p>Read the documentations of my more notable projects.</p>
+    </mat-card-content>
+    <mat-card-actions >
+        <a routerLink="/projects"><button mat-raised-button color="warn" class="ButtonCard" >Go to Projects</button></a>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card class="fade-in2 mat-elevation-z0 CvCard">
+    
+    <img class="matIMG" mat-card-image src="assets/images/cv.jpeg" alt="Photo of cv">
+    <mat-card-content>
+      <h1>My CV</h1>
+      <p>Read about my previous experiences.</p>
+    </mat-card-content>
+    <mat-card-actions >
+        <button mat-raised-button color="warn" class="ButtonCardCV" (click)="downloadCV()" ><span class="material-icons">file_download</span>Download CV</button>
+    </mat-card-actions>
+  </mat-card>
+
+

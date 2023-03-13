@@ -1,0 +1,163 @@
+.image{
+    height:30em;
+    background-size:cover;
+    width:30vw;
+    background-image:url('src/assets/images/FinalCVPic.png');
+    background-position:50% 50%;
+    float: right;
+    margin-top: 5vh;
+    margin-right: 8vw;
+  }
+  .WelcometextCard{
+    height: 30vh;
+    width: 45vw;
+    display:relative;
+    margin-top: 13vh;
+    margin-left: 15vw;
+   position: absolute;
+   border-radius: 20px;
+
+   backdrop-filter: blur(25px);
+    
+    
+
+  }
+  .textPart1{
+    padding-left: 20px;
+  }
+  
+
+ 
+  .ProjectsCard{
+    text-align: center;
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(65, 59, 59);
+    border-width: medium;
+    margin-top: 53vh;
+    margin-left: 15vw;
+    width: 20vw;
+    height: 43vh;
+  }
+  .CvCard{
+    text-align: center;
+    display: absolute;
+    border-style: solid;
+    border-color: rgb(65, 59, 59);
+    border-width: medium;
+    margin-top: -43vh;
+    margin-left: 40vw;
+    width: 20vw;
+    height: 43vh;
+  }
+  .matIMG{
+    display: inherit;
+    width: 25vw;
+    height: 18vh;
+
+  }
+  .ButtonCardCV{
+    background-color: rgb(53, 53, 53);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-left: 3.5vw;
+  }
+  .ButtonCard{
+    background-color: rgb(53, 53, 53);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-left: 4vw;
+  }
+  a{
+    text-decoration: none;
+
+  }
+
+  .fade-in{-webkit-animation:fade-in 1.8s linear;animation:fade-in 1.8s linear}
+  .fade-in2{-webkit-animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) 2s both;animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) 2s both}
+  @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+  
+
+  @media screen and (max-width: 700px){
+    span{
+      font-size: 10px;
+    }
+    .image{
+      height:15em;
+      background-size:cover;
+      width:85vw;
+      background-image:url('src/assets/images/FinalCVPic.png');
+      background-position:50% 50%;
+      margin-right: 11vw;
+  
+    }
+    .WelcometextCard{
+      height: 40%;
+      width: 95%;
+      
+      margin-top: 15vh;
+      margin-left: 2vw;
+     
+     border-radius: 20px;
+  
+     backdrop-filter: blur(25px);
+      
+      
+  
+    }
+    .textPart1{
+      padding-left: 20px;
+    }
+    
+  
+   
+    .ProjectsCard{
+      text-align: center;
+      display: inline-block;
+      border-style: solid;
+      border-color: rgb(65, 59, 59);
+      border-width: medium;
+      margin-top: 70vh;
+      margin-left: 10%;
+      width: 75%;
+      height: 50%;
+    }
+    .CvCard{
+      text-align: center;
+      display: absolute;
+      border-style: solid;
+      border-color: rgb(65, 59, 59);
+      border-width: medium;
+      margin-top: 10vh;
+      margin-left: 10%;
+      width: 75%;
+      height: 50%;
+    }
+    .matIMG{
+      display: inherit;
+      width: 100%;
+      height: 55%;
+  
+    }
+    .ButtonCardCV{
+      background-color: rgb(53, 53, 53);
+      color: aliceblue;
+      border-radius: 10px;
+      margin-top:2%;
+      margin-left: 22%;
+    }
+    .ButtonCard{
+      background-color: rgb(53, 53, 53);
+      color: aliceblue;
+      border-radius: 10px;
+      margin-top:2%;
+      margin-right: -55%;
+    }
+    a{
+      text-decoration: none;
+  
+    }
+  
+
+
+  }
